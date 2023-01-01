@@ -1,16 +1,16 @@
 {
   "expo": {
     "name": "sportybar",
-    "slug": "sportybar",
+    "slug": "pengangtify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#181818"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,16 +19,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.albarm.pengangtify"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#181818"
+      },
+      "package": "com.albarm.pengangtify"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aa6865b1-743b-4189-9bf4-bc9b9eb00ab1"
+      }
+    },
+    "owner": "albarm"
   }
 }
